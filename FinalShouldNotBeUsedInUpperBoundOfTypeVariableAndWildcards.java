@@ -4,6 +4,10 @@ public class FinalShouldNotBeUsedInUpperBoundOfTypeVariableAndWildcards {
 	public static <T extends String> T getMyString() {
 		 
 		}
+	// EMB-ISSUE: CodeIssueNames.FINAL_SHOULD_NOT_BE_USED_IN_UPPER_BOUND_OF_TYPE_VARIABLE_AND_WILDCARDS
+		public static <T extends Integer> T getMyStringss() {
+			
+		}
 	// EMB-ISSUE: CodeIssueNames.FINAL_SHOULD_NOT_BE_USED_IN_UPPER_BOUND_OF_TYPE_VARIABLE_AND_WILDCARDS/no-detect
 	public static String getMyStrings() { 
 		  
@@ -17,3 +21,4 @@ public class FinalShouldNotBeUsedInUpperBoundOfTypeVariableAndWildcards {
 		
 	}
 }
+
